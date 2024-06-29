@@ -5,8 +5,10 @@
     "**/.*",
     "**/node_modules",
     // ! custom
+    "src/urls",
     "**/*urls.ts",
-    "test/utils.common.test.ts"
+    "test/utils.common.test.ts",
+    "test/utils.srun.test.ts"
   ],
   "files": [
     "**/*.ts",
@@ -25,11 +27,13 @@
     "PHPSESSID",
     "Repobeats",
     "serverid",
+    "srun",
     "treeshake",
     "tsup",
     "unsubmitted",
     "vanjs",
     "webvpn",
+    "xxtea",
     "ZHJW"
   ]
 }
